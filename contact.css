@@ -1,0 +1,18 @@
+* Contact Page Specific Styles */
+#main-col {
+    float: left;
+    width: 65%;
+}
+
+#sidebar {
+    float: right;
+    width: 33%;
+}
+
+@media(max-width: 768px) {
+    #main-col,
+    #sidebar {
+        float: none;
+        width: 100%;
+    }
+}

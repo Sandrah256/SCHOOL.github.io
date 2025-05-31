@@ -1,0 +1,27 @@
+/* Admissions Page Specific Styles */
+#main-col {
+    float: left;
+    width: 70%;
+}
+
+#sidebar {
+    float: right;
+    width: 28%;
+}
+
+.requirements ul {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+.requirements li {
+    margin-bottom: 10px;
+}
+
+@media(max-width: 768px) {
+    #main-col,
+    #sidebar {
+        float: none;
+        width: 100%;
+    }
+}

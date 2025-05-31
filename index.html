@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hosanna Secondary School - Home</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <style>
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+            margin-bottom: 30px;
+        }
+        
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto 30px;
+        }
+        
+        .highlights {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 40px 0;
+        }
+        
+        .highlight-card {
+            width: 30%;
+            min-width: 300px;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        
+        .highlight-card:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Hosanna</span> Secondary School</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="academics.html">Academics</a></li>
+                    <li><a href="admissions.html">Admissions</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to Hosanna Secondary School</h1>
+        <p>Empowering students with knowledge, skills, and values for a brighter future</p>
+        <a href="admissions.html" class="button">Apply Now</a>
+    </section>
+
+    <div class="container">
+        <section id="motto-vision">
+            <div class="box">
+                <h2>Our Motto</h2>
+                <p>"Knowledge, Integrity, Excellence"</p>
+            </div>
+            <div class="box">
+                <h2>Our Vision</h2>
+                <p>To be a center of academic excellence that nurtures holistic development of students to become responsible global citizens.</p>
+            </div>
+            <div class="box">
+                <h2>Our Mission</h2>
+                <p>To provide quality education through innovative teaching methods, state-of-the-art facilities, and a conducive learning environment that fosters intellectual, social, and moral growth.</p>
+            </div>
+        </section>
+
+        <section class="highlights">
+            <div class="highlight-card" style="background-color: #f0f8ff;">
+                <h3>Academic Excellence</h3>
+                <p>Consistently ranked among the top schools in the region with a 98% college acceptance rate.</p>
+            </div>
+            <div class="highlight-card" style="background-color: #fff0f5;">
+                <h3>Modern Facilities</h3>
+                <p>State-of-the-art laboratories, library, and sports facilities to support holistic development.</p>
+            </div>
+            <div class="highlight-card" style="background-color: #f0fff0;">
+                <h3>Qualified Staff</h3>
+                <p>Dedicated and experienced teachers committed to student success.</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>Hosanna Secondary School &copy; 2025</p>
+    </footer>
+</body>
+</html>
